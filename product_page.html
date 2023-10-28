@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/xeicon.min.css">
+  <link rel="stylesheet" href="/assets/css/swiper.min.css">
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>고향사랑기부금답례품 | 답례품</title>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="headerWrapper">
+    <header class="headerBody">
+      <div class="headerBodyLayout">
+        <h1 class="logo"><a href="/index.html">고향사랑기부금답례품</a></h1>
+        <div class="gnb">
+          <ul class="gnbList">
+            <li><a href="/donation_desc.html">고향사랑기부금</a></li>
+            <li><a href="/return_gt.html">답례품</a></li>
+            <li><a href="/event_list.html">이벤트</a></li>
+            <li><a href="/qna.html">고객지원</a></li>
+          </ul>
+          <div class="gnbDetailMenu">
+            <ul>
+              <li>
+                <a href="/donation_desc.html">고향사랑기부금</a>
+                <ul class="gnbDetailMenuList">
+                  <li><a href="/donation_desc.html">고향사랑기부금이란?</a></li>
+                  <li><a href="/donation_calc.html">기부금과 공제액 계산하기</a></li>
+                  <li><a href="/donation_use.html">고향사랑기부금 사용처</a></li>
+                  <li><a href="/donation_video.html">고향사랑기부금 영상자료</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/return_gt.html">답례품</a>
+                <ul class="gnbDetailMenuList">
+                  <li><a href="/return_gt.html">답례품이란?</a></li>
+                  <li><a href="/product_list.html">답례품 목록</a></li>
+                  <li><a href="/product_item.html">추천 답례품</a></li>
+                  <li><a href="/product_item1.html">인기 답례품</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/event_list.html">이벤트</a>
+                <ul class="gnbDetailMenuList">
+                  <li><a href="/event_list.html">진행중인 이벤트</a></li>
+                  <li><a href="/end_event_list.html">마감된 이벤트</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/qna.html">고객지원</a>
+                <ul class="gnbDetailMenuList">
+                  <li><a href="/qna.html">자주 묻는 질문</a></li>
+                  <li><a href="/qus.html">묻고 답하기</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="headerBodyInfo">
+          <button type="button" class="menuBtn" type="button"><i class="xi-bars xi-2x"></i></button>
+          <button type="button" class="searchBtn" type="button"><i class="xi-search xi-2x"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <!-- search area -->
+    <div class="headerSearchArea hide">
+      <div class="headerBackground">
+        <div class="searchLayout">
+          <form action="" class="headerSearchForm">
+            <div class="headerSearchInner">
+              <h2>어떤 답례품을 찾으시나요?</h2>
+              <div class="main_search_area">
+                <div class="main_search_bar">
+                  <div class="main_search_bar_keyword">
+                    <label for="main_search_keyword"><i class="xi-search"></i></label>
+                    <input id="main_search_keyword" type="text" maxlength="20" placeholder="상품을 입력해주세요">
+                  </div>
+                  <div class="main_search_bar_area">
+                    <label for="main_search_area"><i class="xi-map-o"></i></label>
+                    <button type="button" id="main_search_area" class="printArea">지역을 선택해주세요</button>
+                  </div>
+                  <div class="main_search_bar_item">
+                    <label for="main_search_item"><i class="xi-cart-o"></i></label>
+                    <button type="button" id="main_search_item" class="printItem">분류를 선택해주세요</button>
+                  </div>
+                  <div class="main_search_bar_submit_button">
+                    <button type="button">검색</button>
+                  </div>
+                  <div class="main_search_bar_area_category_wrapper hide">
+                    <div class="main_search_bar_area_search_bar">
+                      <div>
+                        <label for="main_search_bar_area_search_bar"><i class="xi-search"></i></label>
+                        <input id="main_search_bar_area_search_bar" type="text" placeholder="지역명 검색">
+                        <button type="button" class="applyBtn">적용</button>
+                      </div>
+                    </div>
+                    <div class="main_search_bar_area_category">
+                      <ul class="area_item">
+                        <li><button type="button">전국</button></li>
+                        <li><button type="button">서울</button></li>
+                        <li><button type="button">부산</button></li>
+                        <li><button type="button">인천</button></li>
+                        <li><button type="button">대전</button></li>
+                        <li><button type="button">울산</button></li>
+                        <li><button type="button">광주</button></li>
+                        <li><button type="button">강원</button></li>
+                        <li><button type="button">경기</button></li>
+                        <li><button type="button">경남</button></li>
+                        <li><button type="button">경북</button></li>
+                        <li><button type="button">전남</button></li>
+                        <li><button type="button">전북</button></li>
+                        <li><button type="button">충남</button></li>
+                        <li><button type="button">충북</button></li>
+                        <li><button type="button">제주</button></li>
+                      </ul>
+                      <button type="button" class="close_btn"><i class="xi-close xi-2x"></i></button>
+                      <div class="main_search_bar_area_detail_category">
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">전국</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">서울전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">부산전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">인천전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">대전전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">울산전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">광주전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">강원전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">강릉시</button></li>
+                          <li><button type="button" class="categoryItemBtn">동해시</button></li>
+                          <li><button type="button" class="categoryItemBtn">삼척시</button></li>
+                          <li><button type="button" class="categoryItemBtn">속초시</button></li>
+                          <li><button type="button" class="categoryItemBtn">원주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">춘천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">태백시</button></li>
+                          <li><button type="button" class="categoryItemBtn">고성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">양구군</button></li>
+                          <li><button type="button" class="categoryItemBtn">양양군</button></li>
+                          <li><button type="button" class="categoryItemBtn">영월군</button></li>
+                          <li><button type="button" class="categoryItemBtn">인제군</button></li>
+                          <li><button type="button" class="categoryItemBtn">정선군</button></li>
+                          <li><button type="button" class="categoryItemBtn">철원군</button></li>
+                          <li><button type="button" class="categoryItemBtn">평창군</button></li>
+                          <li><button type="button" class="categoryItemBtn">홍천군</button></li>
+                          <li><button type="button" class="categoryItemBtn">화천군</button></li>
+                          <li><button type="button" class="categoryItemBtn">황성군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">경기전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">고양시</button></li>
+                          <li><button type="button" class="categoryItemBtn">수원시</button></li>
+                          <li><button type="button" class="categoryItemBtn">용인시</button></li>
+                          <li><button type="button" class="categoryItemBtn">과천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">김포시</button></li>
+                          <li><button type="button" class="categoryItemBtn">시흥시</button></li>
+                          <li><button type="button" class="categoryItemBtn">여주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">파주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">광명시</button></li>
+                          <li><button type="button" class="categoryItemBtn">남양주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">안산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">오산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">평택시</button></li>
+                          <li><button type="button" class="categoryItemBtn">광주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">동두천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">안성시</button></li>
+                          <li><button type="button" class="categoryItemBtn">의왕시</button></li>
+                          <li><button type="button" class="categoryItemBtn">포천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">구리시</button></li>
+                          <li><button type="button" class="categoryItemBtn">부천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">안양시</button></li>
+                          <li><button type="button" class="categoryItemBtn">의정부시</button></li>
+                          <li><button type="button" class="categoryItemBtn">하남시</button></li>
+                          <li><button type="button" class="categoryItemBtn">군포시</button></li>
+                          <li><button type="button" class="categoryItemBtn">성남시</button></li>
+                          <li><button type="button" class="categoryItemBtn">양주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">이천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">화성시</button></li>
+                          <li><button type="button" class="categoryItemBtn">가평군</button></li>
+                          <li><button type="button" class="categoryItemBtn">양평군</button></li>
+                          <li><button type="button" class="categoryItemBtn">연천군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">경남전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">창원시</button></li>
+                          <li><button type="button" class="categoryItemBtn">거제시</button></li>
+                          <li><button type="button" class="categoryItemBtn">김해시</button></li>
+                          <li><button type="button" class="categoryItemBtn">밀양시</button></li>
+                          <li><button type="button" class="categoryItemBtn">사천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">양산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">진주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">통영시</button></li>
+                          <li><button type="button" class="categoryItemBtn">거창군</button></li>
+                          <li><button type="button" class="categoryItemBtn">고성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">남해군</button></li>
+                          <li><button type="button" class="categoryItemBtn">산청군</button></li>
+                          <li><button type="button" class="categoryItemBtn">의령군</button></li>
+                          <li><button type="button" class="categoryItemBtn">창녕군</button></li>
+                          <li><button type="button" class="categoryItemBtn">하동군</button></li>
+                          <li><button type="button" class="categoryItemBtn">함안군</button></li>
+                          <li><button type="button" class="categoryItemBtn">합천군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">경북전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">경산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">상주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">경주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">안동시</button></li>
+                          <li><button type="button" class="categoryItemBtn">영주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">김천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">영천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">문경시</button></li>
+                          <li><button type="button" class="categoryItemBtn">포항시</button></li>
+                          <li><button type="button" class="categoryItemBtn">고령군</button></li>
+                          <li><button type="button" class="categoryItemBtn">군위군</button></li>
+                          <li><button type="button" class="categoryItemBtn">봉화군</button></li>
+                          <li><button type="button" class="categoryItemBtn">성주군</button></li>
+                          <li><button type="button" class="categoryItemBtn">영덕군</button></li>
+                          <li><button type="button" class="categoryItemBtn">예천군</button></li>
+                          <li><button type="button" class="categoryItemBtn">울릉군</button></li>
+                          <li><button type="button" class="categoryItemBtn">울진군</button></li>
+                          <li><button type="button" class="categoryItemBtn">의성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">청도군</button></li>
+                          <li><button type="button" class="categoryItemBtn">청송군</button></li>
+                          <li><button type="button" class="categoryItemBtn">칠곡군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">전남전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">광양시</button></li>
+                          <li><button type="button" class="categoryItemBtn">나주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">목포시</button></li>
+                          <li><button type="button" class="categoryItemBtn">순천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">여수시</button></li>
+                          <li><button type="button" class="categoryItemBtn">강진군</button></li>
+                          <li><button type="button" class="categoryItemBtn">고흥군</button></li>
+                          <li><button type="button" class="categoryItemBtn">곡성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">구례군</button></li>
+                          <li><button type="button" class="categoryItemBtn">담양군</button></li>
+                          <li><button type="button" class="categoryItemBtn">무안군</button></li>
+                          <li><button type="button" class="categoryItemBtn">보성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">신안군</button></li>
+                          <li><button type="button" class="categoryItemBtn">영광군</button></li>
+                          <li><button type="button" class="categoryItemBtn">영암군</button></li>
+                          <li><button type="button" class="categoryItemBtn">완도군</button></li>
+                          <li><button type="button" class="categoryItemBtn">장성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">장흥군</button></li>
+                          <li><button type="button" class="categoryItemBtn">진도군</button></li>
+                          <li><button type="button" class="categoryItemBtn">함평군</button></li>
+                          <li><button type="button" class="categoryItemBtn">해남군</button></li>
+                          <li><button type="button" class="categoryItemBtn">화순군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">전북전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">군산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">김제시</button></li>
+                          <li><button type="button" class="categoryItemBtn">남원시</button></li>
+                          <li><button type="button" class="categoryItemBtn">익산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">전주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">정읍시</button></li>
+                          <li><button type="button" class="categoryItemBtn">고창군</button></li>
+                          <li><button type="button" class="categoryItemBtn">무주군</button></li>
+                          <li><button type="button" class="categoryItemBtn">부안군</button></li>
+                          <li><button type="button" class="categoryItemBtn">순창군</button></li>
+                          <li><button type="button" class="categoryItemBtn">완주군</button></li>
+                          <li><button type="button" class="categoryItemBtn">임실군</button></li>
+                          <li><button type="button" class="categoryItemBtn">장수군</button></li>
+                          <li><button type="button" class="categoryItemBtn">진안군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">충남전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">계룡시</button></li>
+                          <li><button type="button" class="categoryItemBtn">공주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">논산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">당진시</button></li>
+                          <li><button type="button" class="categoryItemBtn">보령시</button></li>
+                          <li><button type="button" class="categoryItemBtn">서산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">아산시</button></li>
+                          <li><button type="button" class="categoryItemBtn">천안시</button></li>
+                          <li><button type="button" class="categoryItemBtn">금산군</button></li>
+                          <li><button type="button" class="categoryItemBtn">부여군</button></li>
+                          <li><button type="button" class="categoryItemBtn">서천군</button></li>
+                          <li><button type="button" class="categoryItemBtn">예산군</button></li>
+                          <li><button type="button" class="categoryItemBtn">청양군</button></li>
+                          <li><button type="button" class="categoryItemBtn">태안군</button></li>
+                          <li><button type="button" class="categoryItemBtn">홍성군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">충북전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">제천시</button></li>
+                          <li><button type="button" class="categoryItemBtn">청주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">충주시</button></li>
+                          <li><button type="button" class="categoryItemBtn">괴산군</button></li>
+                          <li><button type="button" class="categoryItemBtn">단양군</button></li>
+                          <li><button type="button" class="categoryItemBtn">보은군</button></li>
+                          <li><button type="button" class="categoryItemBtn">영동군</button></li>
+                          <li><button type="button" class="categoryItemBtn">옥천군</button></li>
+                          <li><button type="button" class="categoryItemBtn">음성군</button></li>
+                          <li><button type="button" class="categoryItemBtn">중평군</button></li>
+                          <li><button type="button" class="categoryItemBtn">진천군</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">제주전체</button></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main_search_bar_item_category_wrapper hide">
+                    <div class="main_search_bar_item_search_bar">
+                      <div>
+                        <label for="main_search_bar_area_search_bar"><i class="xi-search"></i></label>
+                        <input id="main_search_bar_area_search_bar" type="text" placeholder="분류명 검색">
+                        <button type="button" class="applyBtn">적용</button>
+                      </div>
+                    </div>
+
+                    <div class="main_search_bar_item_category">
+                      <ul class="item_item">
+                        <li><button type="button">분류전체</button></li>
+                        <li><button type="button">특산품</button></li>
+                        <li><button type="button">농산물</button></li>
+                        <li><button type="button">해산물</button></li>
+                        <li><button type="button">관광상품</button></li>
+                        <li><button type="button">육류</button></li>
+                        <li><button type="button">채소류</button></li>
+                        <li><button type="button">과일류</button></li>
+                        <li><button type="button">바이오상품</button></li>
+                        <li><button type="button">기념품류</button></li>
+                      </ul>
+                      <button type="button" class="close_btn"><i class="xi-close xi-2x"></i></button>
+                      <div class="main_search_bar_item_detail_category">
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">분류전체</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">특산품전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">의류</button></li>
+                          <li><button type="button" class="categoryItemBtn">전통주</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">농산물전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">농산물item1</button></li>
+                          <li><button type="button" class="categoryItemBtn">농산물item2</button></li>
+                          <li><button type="button" class="categoryItemBtn">농산물item3</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">해산물전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">젖갈류</button></li>
+                          <li><button type="button" class="categoryItemBtn">생선류</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">관광상품전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item1</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item2</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item3</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item4</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item5</button></li>
+                          <li><button type="button" class="categoryItemBtn">관광상품item6</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">육류전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">돼지고기</button></li>
+                          <li><button type="button" class="categoryItemBtn">소고기</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">채소류전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">채소류1</button></li>
+                          <li><button type="button" class="categoryItemBtn">채소류2</button></li>
+                          <li><button type="button" class="categoryItemBtn">채소류3</button></li>
+                          <li><button type="button" class="categoryItemBtn">채소류4</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">과일류전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">과일류1</button></li>
+                          <li><button type="button" class="categoryItemBtn">과일류2</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">바이오상품전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">건강식품</button></li>
+                          <li><button type="button" class="categoryItemBtn">영양제</button></li>
+                        </ul>
+                        <ul class="hide">
+                          <li><button type="button" class="categoryItemBtn">기념품전체</button></li>
+                          <li><button type="button" class="categoryItemBtn">공예품</button></li>
+                          <li><button type="button" class="categoryItemBtn">문구류</button></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="popularTagArea">
+                <h3>인기 검색어</h3>
+                <ul>
+                  <li class="popularTag"><a href="#">#수라배 겁나게 길어버려서 감당 안되는 태그</a></li>
+                  <li class="popularTag"><a href="#">#경복궁쌀</a></li>
+                  <li class="popularTag"><a href="#">#허브</a></li>
+                  <li class="popularTag"><a href="#">#설렁탕</a></li>
+                  <li class="popularTag"><a href="#">#양잠</a></li>
+                  <li class="popularTag"><a href="#">#배추</a></li>
+                  <li class="popularTag"><a href="#">#먹골배</a></li>
+                  <li class="popularTag"><a href="#">#미나리</a></li>
+                  <li class="popularTag"><a href="#">#신선로</a></li>
+                  <li class="popularTag"><a href="#">#구절판</a></li>
+                  <li class="popularTag"><a href="#">#수라배 겁나게 길어버려서 감당 안되는 태그</a></li>
+                  <li class="popularTag"><a href="#">#경복궁쌀</a></li>
+                  <li class="popularTag"><a href="#">#허브</a></li>
+                  <li class="popularTag"><a href="#">#설렁탕</a></li>
+                  <li class="popularTag"><a href="#">#양잠</a></li>
+                  <li class="popularTag"><a href="#">#배추</a></li>
+                  <li class="popularTag"><a href="#">#먹골배</a></li>
+                  <li class="popularTag"><a href="#">#미나리</a></li>
+                  <li class="popularTag"><a href="#">#신선로</a></li>
+                  <li class="popularTag"><a href="#">#구절판</a></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+          <button type="button" class="closeBtn"><i class="xi-close xi-2x"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 상단 버튼 -->
+  <div class="top">
+    <div class="HeaderSearchBtn">
+      <button type="button" class="HsearchBtn" type="button"><i class="xi-search right_searchBtn"></i></button>
+    </div>
+    <div id="js-scroll"><i class="xi-arrow-up topBtn"></i></div>
+  </div>
+
+  <!-- 메뉴 타이틀 -->
+  <div class="donation_tit DescTop">
+    <div class="top_inner">
+      <h2>답례품 페이지</h2>
+    </div>
+  </div>
+  <!-- 상품 설명  -->
+  <div class="custom prt_pad">
+    <div class="prt_desc">
+      <!-- 동현님 답례품 작업 -->
+      <div class="gitfImgArea">
+        <div class="giftMainImgArea">
+          <img class="giftMainImg" src="./assets/images/item16.jpeg" alt="giftMainImg">
+        </div>
+        <div class="giftSubImgArea">
+          <div class="subImgSlideBtnLeft"><button type="button" class="subImgSlideBtn"><i
+                class="xi-angle-left xi-3x subImgPrev"></i></button></div>
+          <div class="subImgSlideBtnRight"><button type="button" class="subImgSlideBtn"><i
+                class="xi-angle-right xi-3x subImgNext"></i></button></div>
+          <ul class="giftSubImgList">
+            <li><img class="giftSubImg" src="./assets/images/item16.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item15.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item14.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item13.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item12.png" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item11.png" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item10.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item9.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item8.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item7.webp" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item6.webp" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item5.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item4.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item3.png" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item2.jpeg" alt="giftSubImg"></li>
+            <li><img class="giftSubImg" src="./assets/images/item1.png" alt="giftSubImg"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 우측 설명 -->
+      <div class="prt_item_desc product-item-contents">
+        <div class="prt_item_tit">
+          <p>특산품 답례품</p>
+          <em>[명인 박재서] 안동 소주</em>
+        </div>
+
+        <ul class="prt_item_intro">
+          <li>
+            <div>원산지</div>
+            <div>안동</div>
+          </li>
+          <li>
+            <div>상호명</div>
+            <div>DJ패밀리</div>
+          </li>
+          <li>
+            <div>단위</div>
+            <div>1kg</div>
+          </li>
+          <li>
+            <div>기간</div>
+            <div>2023년1월30일~2023년2월15일</div>
+          </li>
+        </ul>
+        <div class="prt_item_price">
+          <p>가격</p>
+          <p>29,920원</p>
+        </div>
+        <div class="prt_item_ph">
+          <a href="#">바로 구매하기</a>
+        </div>
+      </div>
+    </div>
+    <!-- 상품 뷰 -->
+    <div class="prt_itemView">
+      <div class="itemView">
+        <img src="./assets/images/items1.jpg" alt="item">
+        <img src="./assets/images/items2.jpg" alt="item">
+        <img src="./assets/images/items3.jpg" alt="item">
+        <img src="./assets/images/items4.jpg" alt="item">
+      </div>
+      <div>
+        <div class="main_custom custom">
+          <div class="custom_title">
+            <h2 class="custom_tit">인기 답례품</h2>
+            <div class="custom_title_btn">
+              <p>많이 찾는 인기 답례품</p>
+              <div class="custom_title_btn2">
+                <a href="#" class="customBtn">더 보기<i class="xi-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="custom_img">
+            <ul class="custom_three_list">
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item11.png">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item12.png">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item14.jpeg">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item15.jpeg">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item16.jpeg">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item1.png">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item2.jpeg">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+              <li class="custom_img2">
+                <a href="#">
+                  <div class="custom_img_child">
+                    <img src="/assets/images/item3.png">
+                  </div>
+                </a>
+                <div class="custom_child_desc">
+                  <p class="hashtag"><span>#경주</span><span>#지역특산물</span></p>
+                  <a href="#">지역 명물 경주빵 44개</a>
+                  <div class="custom_child_price">
+                    <p>4,000원</p>
+                    <span><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i
+                        class="xi-star-o"></i><i class="xi-star-o"></i></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footerBody">
+      <div class="footerBodyLayout">
+        <div class="footer_left_side">
+          <div class="footer_left_side_logo">
+            <h2>
+              <a href="index.html">
+                <img src="assets/images/logo.png" alt="logo">logo</a>
+            </h2>
+          </div>
+          <div class="footer_left_side_inner_area">
+            <div class="footer_left_side_inner_info">
+              <span>미래문화재단</span>
+              <span>경상북도 안동시 솔밭길 226, 2층(옥동)</span>
+              <span>고객센터 054-841-2433</span>
+            </div>
+            <div class="footer_left_side_inner_copyright">
+              <p>© RETURN GIFT. ALL RIGHTS RESERVED</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer_right_side">
+          <div class="footer_right_side_sns">
+            <ul>
+              <li><a href="#"><img src="assets/images/ft_sns_youtube.png" alt="youtube"></a></li>
+              <li><a href="#"><img src="assets/images/ft_sns_kakao.png" alt="twitter"></a></li>
+              <li><a href="#"><img src="assets/images/ft_sns_instagram.png" alt="instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/swiper.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
