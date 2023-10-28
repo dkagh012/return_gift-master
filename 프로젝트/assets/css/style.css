@@ -30,30 +30,30 @@
   font-family: 'Hancom Malang Malang';
   font-style: normal;
   font-weight: 300;
-  src: local('Hancom Malang Malang Regular'), local('HancomMalangMalang-Regular'), url(/assets/css/fonts/HancomMalangMalang-Regular.eot);
-  src: url(/assets/css/fonts/HancomMalangMalang-Regular.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/HancomMalangMalang-Regular.woff2) format('woff2'),
-    url(/assets/css/fonts/HancomMalangMalang-Regular.woff) format('woff');
+  src: local('Hancom Malang Malang Regular'), local('HancomMalangMalang-Regular'), url(./assets/css/fonts/HancomMalangMalang-Regular.eot);
+  src: url(./assets/css/fonts/HancomMalangMalang-Regular.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/HancomMalangMalang-Regular.woff2) format('woff2'),
+    url(./assets/css/fonts/HancomMalangMalang-Regular.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Hancom Malang Malang';
   font-style: normal;
   font-weight: 700;
-  src: local('Hancom Malang Malang Bold'), local('HancomMalangMalang-Bold'), url(/assets/css/fonts/HancomMalangMalang-Bold.eot);
-  src: url(/assets/css/fonts/HancomMalangMalang-Bold.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/HancomMalangMalang-Bold.woff2) format('woff2'),
-    url(/assets/css/fonts/HancomMalangMalang-Bold.woff) format('woff');
+  src: local('Hancom Malang Malang Bold'), local('HancomMalangMalang-Bold'), url(./assets/css/fonts/HancomMalangMalang-Bold.eot);
+  src: url(./assets/css/fonts/HancomMalangMalang-Bold.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/HancomMalangMalang-Bold.woff2) format('woff2'),
+    url(./assets/css/fonts/HancomMalangMalang-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 100;
-  src: local('Noto Sans Light'), local('NotoSans-Light'), url(/assets/css/fonts/NotoSans-Light.eot);
-  src: url(/assets/css/fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/NotoSans-Light.woff2) format('woff2'),
-    url(/assets/css/fonts/NotoSans-Light.woff) format('woff');
+  src: local('Noto Sans Light'), local('NotoSans-Light'), url(./assets/css/fonts/NotoSans-Light.eot);
+  src: url(./assets/css/fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/NotoSans-Light.woff2) format('woff2'),
+    url(./assets/css/fonts/NotoSans-Light.woff) format('woff');
   ;
 }
 
@@ -61,40 +61,40 @@
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 300;
-  src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(/assets/css/fonts/NotoSans-Regular.eot);
-  src: url(/assets/css/fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/NotoSans-Regular.woff2) format('woff2'),
-    url(/assets/css/fonts/NotoSans-Regular.woff) format('woff');
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(./assets/css/fonts/NotoSans-Regular.eot);
+  src: url(./assets/css/fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/NotoSans-Regular.woff2) format('woff2'),
+    url(./assets/css/fonts/NotoSans-Regular.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 500;
-  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(/assets/css/fonts/NotoSans-Medium.eot);
-  src: url(/assets/css/fonts/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/NotoSans-Medium.woff2) format('woff2'),
-    url(/assets/css/fonts/NotoSans-Medium.woff) format('woff');
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(./assets/css/fonts/NotoSans-Medium.eot);
+  src: url(./assets/css/fonts/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/NotoSans-Medium.woff2) format('woff2'),
+    url(./assets/css/fonts/NotoSans-Medium.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 700;
-  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(/assets/css/fonts/NotoSans-Bold.eot);
-  src: url(/assets/css/fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/NotoSans-Bold.woff2) format('woff2'),
-    url(/assets/css/fonts/NotoSans-Bold.woff) format('woff');
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(./assets/css/fonts/NotoSans-Bold.eot);
+  src: url(./assets/css/fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/NotoSans-Bold.woff2) format('woff2'),
+    url(./assets/css/fonts/NotoSans-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Nanum Myeongjo';
   font-style: normal;
   font-weight: 900;
-  src: local('※'), url(/assets/css/fonts/NanumMyeongjoEB.eot);
-  src: url(/assets/css/fonts/NanumMyeongjoEB.eot?#iefix) format('embedded-opentype'),
-    url(/assets/css/fonts/NanumMyeongjoEB.woff2) format('woff2'),
-    url(/assets/css/fonts/NanumMyeongjoEB.woff) format('woff');
+  src: local('※'), url(./assets/css/fonts/NanumMyeongjoEB.eot);
+  src: url(./assets/css/fonts/NanumMyeongjoEB.eot?#iefix) format('embedded-opentype'),
+    url(./assets/css/fonts/NanumMyeongjoEB.woff2) format('woff2'),
+    url(./assets/css/fonts/NanumMyeongjoEB.woff) format('woff');
 }
 
 /* common */
@@ -144,7 +144,7 @@ body {
 
 .headerBodyLayout .logo a {
   display: block;
-  background-image: url(/assets/images/logo.png);
+  background-image: url(./assets/images/logo.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;

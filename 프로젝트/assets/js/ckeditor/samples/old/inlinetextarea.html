@@ -4,17 +4,17 @@ Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
 For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 -->
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<title>Replace Textarea with Inline Editor &mdash; CKEditor Sample</title>
 	<script src="../../ckeditor.js"></script>
 	<link href="sample.css" rel="stylesheet">
-	<meta name="description" content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
+	<meta name="description"
+		content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
 	<style>
-
 		/* Style the CKEditor element to look like a textfield */
-		.cke_textarea_inline
-		{
+		.cke_textarea_inline {
 			padding: 10px;
 			height: 200px;
 			overflow: auto;
@@ -22,15 +22,17 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 			border: 1px solid gray;
 			-webkit-appearance: textfield;
 		}
-
 	</style>
 </head>
+
 <body>
 	<h1 class="samples">
-		<a href="index.html">CKEditor Samples</a> &raquo; Replace Textarea with Inline Editor
+		<a href=".index.html">CKEditor Samples</a> &raquo; Replace Textarea with Inline Editor
 	</h1>
 	<div class="warning deprecated">
-		This sample is not maintained anymore. Check out its <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/inline.html">brand new version in CKEditor Examples</a>.
+		This sample is not maintained anymore. Check out its <a
+			href=".https://ckeditor.com/docs/ckeditor4/latest/examples/inline.html">brand new version in CKEditor
+			Examples</a>.
 	</div>
 	<div class="description">
 		<p>
@@ -38,7 +40,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 			element. In this case the <code>textarea</code> will be replaced
 			by a <code>div</code> element with inline editing enabled.
 		</p>
-<pre class="samples">
+		<pre class="samples">
 // "article-body" is the name of a textarea element.
 var editor = CKEDITOR.inline( 'article-body' );
 </pre>
@@ -47,7 +49,8 @@ var editor = CKEDITOR.inline( 'article-body' );
 		<h2>This is a sample form with some fields</h2>
 		<p>
 			Title:<br>
-			<input type="text" name="title" value="Sample Form"></p>
+			<input type="text" name="title" value="Sample Form">
+		</p>
 		<p>
 			Article Body (Textarea converted to CKEditor):<br>
 			<textarea name="article-body" style="height: 200px">
@@ -97,7 +100,7 @@ var editor = CKEDITOR.inline( 'article-body' );
 	</form>
 
 	<script>
-		CKEDITOR.inline( 'article-body' );
+		CKEDITOR.inline('article-body');
 	</script>
 	<div id="footer">
 		<hr>
@@ -106,8 +109,10 @@ var editor = CKEDITOR.inline( 'article-body' );
 				https://ckeditor.com</a>
 		</p>
 		<p id="copy">
-			Copyright &copy; 2003-2022, <a class="samples" href="https://cksource.com/">CKSource</a> Holding sp. z o.o. All rights reserved.
+			Copyright &copy; 2003-2022, <a class="samples" href="https://cksource.com/">CKSource</a> Holding sp. z o.o. All
+			rights reserved.
 		</p>
 	</div>
 </body>
+
 </html>

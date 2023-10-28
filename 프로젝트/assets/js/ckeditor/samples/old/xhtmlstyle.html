@@ -4,6 +4,7 @@ Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
 For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 -->
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<title>XHTML Compliant Output &mdash; CKEditor Sample</title>
@@ -11,14 +12,18 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 	<script src="../../ckeditor.js"></script>
 	<script src="sample.js"></script>
 	<link href="sample.css" rel="stylesheet">
-	<meta name="description" content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
+	<meta name="description"
+		content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
 </head>
+
 <body>
 	<h1 class="samples">
-		<a href="index.html">CKEditor Samples</a> &raquo; Producing XHTML Compliant Output
+		<a href=".index.html">CKEditor Samples</a> &raquo; Producing XHTML Compliant Output
 	</h1>
 	<div class="warning deprecated">
-		This sample is not maintained anymore. Check out its <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/basicstyles.html">brand new version in CKEditor Examples</a>.
+		This sample is not maintained anymore. Check out its <a
+			href=".https://ckeditor.com/docs/ckeditor4/latest/examples/basicstyles.html">brand new version in CKEditor
+			Examples</a>.
 	</div>
 	<div class="description">
 		<p>
@@ -35,7 +40,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 			A snippet of the configuration code can be seen below; check the source of this page for
 			full definition:
 		</p>
-<pre class="samples">
+		<pre class="samples">
 CKEDITOR.replace( '<em>textarea_id</em>', {
 	contentsCss: 'assets/outputxhtml.css',
 
@@ -56,10 +61,11 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 			<label for="editor1">
 				Editor 1:
 			</label>
-			<textarea cols="80" id="editor1" name="editor1" rows="10">&lt;p&gt;This is some &lt;span class="Bold"&gt;sample text&lt;/span&gt;. You are using &lt;a href="https://ckeditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+			<textarea cols="80" id="editor1" name="editor1"
+				rows="10">&lt;p&gt;This is some &lt;span class="Bold"&gt;sample text&lt;/span&gt;. You are using &lt;a href="https://ckeditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
 			<script>
 
-				CKEDITOR.replace( 'editor1', {
+				CKEDITOR.replace('editor1', {
 					/*
 					 * Style sheet for the contents
 					 */
@@ -151,7 +157,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 								}
 							}
 						]
-					} ,
+					},
 
 					/*
 					 * Font colors.
@@ -188,12 +194,12 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 					/*
 					 * Indentation.
 					 */
-					indentClasses: [ 'Indent1', 'Indent2', 'Indent3' ],
+					indentClasses: ['Indent1', 'Indent2', 'Indent3'],
 
 					/*
 					 * Paragraph justification.
 					 */
-					justifyClasses: [ 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyFull' ],
+					justifyClasses: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyFull'],
 
 					/*
 					 * Styles combo.
@@ -224,11 +230,14 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 	<div id="footer">
 		<hr>
 		<p>
-			CKEditor - The text editor for the Internet - <a class="samples" href="https://ckeditor.com/">https://ckeditor.com</a>
+			CKEditor - The text editor for the Internet - <a class="samples"
+				href="https://ckeditor.com/">https://ckeditor.com</a>
 		</p>
 		<p id="copy">
-			Copyright &copy; 2003-2022, <a class="samples" href="https://cksource.com/">CKSource</a> Holding sp. z o.o. All rights reserved.
+			Copyright &copy; 2003-2022, <a class="samples" href="https://cksource.com/">CKSource</a> Holding sp. z o.o. All
+			rights reserved.
 		</p>
 	</div>
 </body>
+
 </html>
